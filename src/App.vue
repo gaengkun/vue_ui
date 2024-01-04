@@ -1,6 +1,7 @@
 <script setup lang="ts">
 // import HelloWorld from './components/HelloWorld.vue';
 // import SlideTime from './components/SlideTime.vue';
+import IconCopy from './components/IconCopy.vue';
 import DarkModeButton from './components/DarkModeButton.vue';
 import ChartBar from './components/ChartBar.vue';
 import ChartLine from './components/ChartLine.vue';
@@ -9,7 +10,6 @@ import ChartLine from './components/ChartLine.vue';
 <template>
    <div style="padding: 20px">
       <DarkModeButton />
-
       <div style="max-width: 900px; margin: auto">
          <ChartBar />
       </div>
@@ -18,6 +18,10 @@ import ChartLine from './components/ChartLine.vue';
 
       <div style="max-width: 900px; margin: auto">
          <ChartLine />
+      </div>
+
+      <div>
+         <IconCopy />
       </div>
    </div>
    <!-- <SlideTime /> -->
