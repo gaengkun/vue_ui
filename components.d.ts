@@ -7,6 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    Alert: typeof import('./src/components/Alert.vue')['default']
     C: typeof import('./src/components/C.vue')['default']
     ChartBar: typeof import('./src/components/ChartBar.vue')['default']
     ChartLine: typeof import('./src/components/ChartLine.vue')['default']
@@ -14,6 +15,7 @@ declare module 'vue' {
     copy: typeof import('./src/components/SlideTime copy.vue')['default']
     DarkmodeButton: typeof import('./src/components/DarkmodeButton.vue')['default']
     DarkModeButton: typeof import('./src/components/DarkModeButton.vue')['default']
+    ElAlert: typeof import('element-plus/es')['ElAlert']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElRow: typeof import('element-plus/es')['ElRow']
     ElSwitch: typeof import('element-plus/es')['ElSwitch']
